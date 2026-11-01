@@ -1,0 +1,15 @@
+# Downloaded sources (python src/get_data.py)
+data/raw/
+
+# Row-level table is too large for GitHub; rebuild with python src/clean.py
+data/clean/wa_ev_registrations.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
